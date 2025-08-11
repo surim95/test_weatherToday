@@ -1,4 +1,5 @@
-@media screen and (max-width:1023px){
+@media screen and (max-width:767px)
+{   /* 모바일 2행 1열 */
     #wrap .contents .weather_title {
         flex-flow: column nowrap;
     }
