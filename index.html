@@ -19,8 +19,40 @@
     <div id="wrap">
         <div class="title">
             <h1>오늘의 날씨</h1>
-            <button class="reload"></button>
+            <button class="reload">
+                <img src="./images/reload.png" alt="">
+                <span>날씨 새로고침</span>
+            </button>
         </div>
+        <div class="contents">
+            <div class="weather_title">
+                <p class="city">Today's <em>Seoul<!-- 도시 이름 --></em></p>
+                <p class="desc">24℃<!-- 기온 --></p>
+            </div>
+            <p class="weather_icon"><img src="./images/sun.png" alt=""></p>
+            <p class="weather">맑음<!-- 날씨 설명 --></p>
+        </div>
+        <p class="line"></p>
+        <ul class="mini_weather">
+            <li class="city city1">
+                <a href="#">
+                    <img src="./images/rainy-day.png" alt="비">
+                    <h2>Busan</h2>
+                </a>
+            </li>
+            <li class="city city2">
+                <a href="#">
+                    <img src="./images/sun.png" alt="맑음">
+                    <h2>Seoul</h2>
+                </a>
+            </li>
+            <li class="city city3">
+                <a href="#">
+                    <img src="./images/cloudy.png" alt="흐림">
+                    <h2>Jeju</h2>
+                </a>
+            </li>
+        </ul>
     </div>
 </body>
 </html>
