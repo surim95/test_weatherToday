@@ -2,7 +2,7 @@ body {}
 #wrap {
     padding-top: 100px;
     text-align: center;
-    width: 402px;
+    width: 407px;
     height: 874px;
     margin: 0 auto;
     background: linear-gradient(#A8F1FF, #6FE6FC, #4ED7F1);
@@ -34,18 +34,22 @@ body {}
     color: #4ED7F1;
 }
 #wrap .contents {}
-#wrap .contents .weather_title{}
+#wrap .contents .weather_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #wrap .contents .weather_title .city{
     font-size: 1.125rem;
     color: #fff;
-    margin-bottom: 24px;
+    margin: 0 24px 24px 0;
 }
 #wrap .contents .weather_title .city em{
     font-size: 1.5rem;
     font-weight: 600;
     color: #27548A;
 }
-#wrap .contents .weather_title .desc{
+#wrap .contents .weather_title .temp{
     font-size: 3rem;
     font-weight: 500;
     color: #fff;
@@ -59,7 +63,7 @@ body {}
 #wrap .contents .weather_icon img{
     width: 100%;
 }
-#wrap .contents .weather {
+#wrap .contents .desc {
     font-size: 1.125rem;
     color: #fff;
     letter-spacing: 0.2;
