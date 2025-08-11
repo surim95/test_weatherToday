@@ -1,7 +1,7 @@
 const weatherData = [
-    { city: "Seoul", temp: "24°C", desc: "맑음", src: "./images/sun.png"},
-    { city: "Busan", temp: "20°C", desc: "흐림", src: "./images/rainy-day.png"},
-    { city: "Jeju", temp: "22°C", desc: "비", src: "./images/cloudy.png"},
+    { city: "Seoul", temp: "24°C", desc: "오늘의 날씨는 맑습니다.", src: "./images/sun.png"},
+    { city: "Busan", temp: "20°C", desc: "오늘의 날씨는 흐립니다.", src: "./images/rainy-day.png"},
+    { city: "Jeju", temp: "22°C", desc: "오늘의 날씨는 비가 내립니다.", src: "./images/cloudy.png"},
 ];
 
 /* 날씨 데이터 연결 */
