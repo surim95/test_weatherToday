@@ -2,7 +2,8 @@ body {}
 #wrap {
     padding-top: 100px;
     text-align: center;
-    width: 407px;
+    max-width: 600px;
+    min-width: 407px;
     height: 874px;
     margin: 0 auto;
     background: linear-gradient(#A8F1FF, #6FE6FC, #4ED7F1);

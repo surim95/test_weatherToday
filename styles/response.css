@@ -1,0 +1,8 @@
+@media screen and (max-width:1023px){
+    #wrap .contents .weather_title {
+        flex-flow: column nowrap;
+    }
+    #wrap .contents .weather_title .city{
+        margin: 0 0 24px 0;
+    }
+}
