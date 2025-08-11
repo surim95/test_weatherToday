@@ -17,10 +17,7 @@ const weatherIcon = document.querySelector('.weather_icon img');
 weatherBtn.addEventListener('click',()=>{
     const randomNum = Math.floor(Math.random()*weatherData.length);
     //console.log(randomNum);
-    city.textContent = weatherData[randomNum].city;
-    temp.textContent = weatherData[randomNum].temp;
-    desc.textContent = weatherData[randomNum].desc;
-    weatherIcon.src = weatherData[randomNum].src;
+    minimap(randomNum);
 })
 
 /* 하단 미니 날씨 */
